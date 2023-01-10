@@ -11,11 +11,16 @@ body {
 
     font-family: 'Poppins', sans-serif;
     /* background-color: #f3f1ff; */
-    margin-left: 120px;
+
     /* margin-right: 120px; */
     background-color: gainsboro;
+    overflow-x: hidden;
 
 
+}
+
+main {
+    margin-left: 120px;
 }
 
 /* navbar */
@@ -168,4 +173,55 @@ body {
 .fa-solid.filled {
     color: #FFC014;
 
+}
+
+.blogs a {
+    text-decoration: none;
+    color: #E02C6D;
+
+}
+
+/* last part */
+.last {
+    width: 80vw;
+    display: flex;
+    margin-top: 20px;
+}
+
+.last-image {
+    width: 50%;
+}
+
+.last-text {
+    width: 50%;
+}
+
+.last-text .button {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 4px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+
+/* last part end */
+
+/* 
+footer section */
+
+.footer {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100vw;
+
+
+}
+
+.foot {
+    text-align: center;
+    color: white;
 }
